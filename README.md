@@ -67,7 +67,7 @@ dendrogram(Z,labels=fromage.index,orientation='left',color_threshold=7)
 plt.show()
 ```
 ![](https://github.com/EPradillon/Dataviz2/blob/main/color.png)
-> Finalement le regroupement nécéssaire pour inclure les fromages frais avec le reste des fromages laisse penser qu'ils ne sont pas associabes
+> Finalement le regroupement nécéssaire pour inclure les fromages frais avec le reste des fromages laisse penser qu'ils ne sont pas associables aux autres fromages
 ```python
 #découpage à la hauteur t = 7 ==> 4 identifiants de groupes obtenus
 groupes_cah = fcluster(Z,t=7,criterion='distance')
